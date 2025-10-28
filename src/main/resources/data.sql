@@ -1,0 +1,16 @@
+INSERT INTO tasks (id, title, description, status, createdAt) VALUES
+    ('1', 'Apprendre Kotlin', 'Revoir les bases Kotlin et la syntaxe', 'TODO', CURRENT_TIMESTAMP),
+    ('2', 'Créer backend', 'Spring Boot + H2 + REST API', 'DOING', CURRENT_TIMESTAMP),
+    ('3', 'Créer frontend', 'React + TypeScript + Tailwind', 'TODO', CURRENT_TIMESTAMP),
+    ('4', 'Intégrer backend et frontend', 'Faire communiquer API et React', 'TODO', CURRENT_TIMESTAMP),
+    ('5', 'Tester endpoints', 'Vérifier que toutes les routes fonctionnent', 'DOING', CURRENT_TIMESTAMP),
+    ('6', 'Ajouter validations', 'Mettre @Valid et contraintes sur DTO', 'TODO', CURRENT_TIMESTAMP),
+    ('7', 'Ajouter logs', 'Configurer logging pour requêtes et erreurs', 'TODO', CURRENT_TIMESTAMP),
+    ('8', 'Écrire tests unitaires', 'Test des services et du repository', 'TODO', CURRENT_TIMESTAMP),
+    ('9', 'Déployer sur H2 persistante', 'Configurer la DB pour garder les données', 'TODO', CURRENT_TIMESTAMP),
+    ('10', 'Préparer README', 'Documentation pour expliquer le projet', 'DONE', CURRENT_TIMESTAMP),
+    ('11', 'Créer diagramme UML', 'Schéma des entities et relations', 'DONE', CURRENT_TIMESTAMP),
+    ('12', 'Réviser Spring Data JDBC', 'Comprendre CRUD et mapping simple', 'TODO', CURRENT_TIMESTAMP),
+    ('13', 'Réviser Spring Boot Actuator', 'Endpoints de monitoring', 'TODO', CURRENT_TIMESTAMP),
+    ('14', 'Préparer mini test React', 'Formulaire + liste des tâches', 'DOING', CURRENT_TIMESTAMP),
+    ('15', 'Ajouter tri/filter', 'Filtrer les tâches par statut', 'TODO', CURRENT_TIMESTAMP);
